@@ -1,0 +1,9 @@
+<apex:page standardController="Account" extension="MyExtn” action={!init}>
+    Hello, Welcome!
+    <p>I&apos;m a piece of text</p>
+    <apex:outputText value="{!Account.Name}" />
+    <apex:outputText value="{!Account.Rating" rendered="false"/>
+    <apex:outputText value="{!parent.Name}" rendered="{!false}"/>
+
+    <apex:outputText value="{!newPhone}" />
+</apex:pages>
